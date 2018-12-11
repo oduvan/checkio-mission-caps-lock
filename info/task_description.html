@@ -1,20 +1,16 @@
 <!-- Describe task in general -->
 
 <p>
-    Sum two passed ints
-</p>
-
-<p style="text-align: center;">
-    <img  title="example" src="{{MEDIA}}example.png" alt="example" style="max-height: 83px"/>
+    Joe Palooka has fat fingers, so he always hits the Caps Lock key whenever he actually intended to hit the key  a either by itself or with the Shift key. (When Joe tries to type in some accented version of  a that needs more keystrokes to conjure the accents, he is more careful in the presence of such raffinated characters and will press the keys correctly.) Compute and return the result of having Joe type in the given  text . The Caps Lock key affects only the letter keys  a to  z , and has no effect on the other keys or characters. Caps Lock key is assumed to be initially off.
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Input: </strong> Two arguments. Both are int
+    <strong>Input: </strong> String. Typed text.
 </p>
 
 <p>
-    <strong>Output: </strong> Int. 
+    <strong>Output: </strong> String. Showed text after being typed.
 </p>
 
 
@@ -25,25 +21,12 @@
     </p>
 
 {% if interpreter.slug == "js-node" %}
-<pre class="brush: javascript">sumTwo(2, 3) == 5
-sumTwo(5, 7) == 12
+<pre class="brush: javascript">capsLock("Why are you asking me that?") == "Why RE YOU sking me thT?"
+capsLock("Madder than Mad Brian of Madcastle") == "MDDER THn MD bRIn of MDCstle"
 </pre>
 {% else %}
-<pre class="brush: python">sum_two(2, 3) == 5
-sum_two(5, 7) == 12
+<pre class="brush: python">caps_lock("Why are you asking me that?") == "Why RE YOU sking me thT?"
+caps_lock("Madder than Mad Brian of Madcastle") == "MDDER THn MD bRIn of MDCstle"
 </pre>
 {% endif %}
 </div>
-<!-- Here you can explain how it can be used in development and what is usage of this. -->
-<!-- The section is optional -->
-<p class="for_info_only">
-    <strong>How it is used: </strong>
-    <i>(math is used everywhere)</i>
-</p>
-
-<!-- Here you can explain some constraints for input-->
-<!-- The section is optional -->
-<p>
-    <strong>Precondition:</strong>
-    <i>both given ints should be between -1000 and 1000</i>
-</p>

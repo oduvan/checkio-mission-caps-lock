@@ -1,16 +1,13 @@
-def sum_two(a, b):
-    """
-        sums two passed arguments
-    """
+def caps_lock(text: str) -> str:
     # your code here
     return None
 
 
 if __name__ == '__main__':
     print("Example:")
-    print(sum_two(3, 2))
-    
+    print(caps_lock("Why are you asking me that?"))
+
     # These "asserts" are used for self-checking and not for an auto-testing
-    assert sum_two(3, 2) == 5, "First"
-    assert sum_two(5, 7) == 12, "Second"
+    assert caps_lock("Why are you asking me that?") == "Why RE YOU sking me thT?"
+    assert caps_lock("Madder than Mad Brian of Madcastle") == "MDDER THn MD bRIn of MDCstle"
     print("Coding complete? Click 'Check' to earn cool rewards!")
