@@ -13,7 +13,7 @@ if (!global.is_checking) {
 
     // These "asserts" are used for self-checking and not for an auto-testing
     assert.equal(capsLock("Why are you asking me that?"), "Why RE YOU sking me thT?");
-    assert.equal(capsLock("Madder than Mad Brian of Madcastle"), "MDDER THn MD BRIn of MDCstle");
+    assert.equal(capsLock("Always wanted to visit Zambia."), "AlwYS Wnted to visit ZMBI.");
 
     console.log("Coding complete? Click 'Check' to earn cool rewards!");
 }

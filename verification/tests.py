@@ -15,14 +15,18 @@ TESTS = {
             "answer": "Why RE YOU sking me thT?"
         },
         {
-            "input": ["Madder than Mad Brian of Madcastle"],
-            "answer": "MDDER THn MD BRIn of MDCstle"
+            "input": ["Always wanted to visit Zambia."],
+            "answer": "AlwYS Wnted to visit ZMBI."
         }
     ],
     "Extra": [
         {
             "input": ["thank you"],
             "answer": "thNK YOU"
+        },
+        {
+            "input": ["Madder than Mad Brian of Madcastle"],
+            "answer": "MDDER THn MD BRIn of MDCstle"
         }
     ]
 }
