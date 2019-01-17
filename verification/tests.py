@@ -26,7 +26,7 @@ TESTS = {
         },
         {
             "input": ["Madder than Mad Brian of Madcastle"],
-            "answer": "MDDER THn MD BRIn of MDCstle"
+            "answer": "MDDER THn MD bRIn of MDCstle"
         }
     ]
 }
