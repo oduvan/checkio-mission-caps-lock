@@ -1,20 +1,16 @@
-"use strict";
+import assert from "assert";
 
-function capsLock(a) {
-
+function capsLock(text: string): string {
     // your code here
-    return undefined;
+    return text;
 }
 
-var assert = require('assert');
-if (!global.is_checking) {
-    console.log('Example:');
-    console.log(capsLock("Why are you asking me that?"));
+console.log('Example:');
+console.log(capsLock('Why are you asking me that?'));
 
-    // These "asserts" are used for self-checking and not for an auto-testing
-    assert.equal(capsLock("Why are you asking me that?"), "Why RE YOU sking me thT?");
-    assert.equal(capsLock("Always wanted to visit Zambia."), "AlwYS Wnted to visit ZMBI.");
+// These "asserts" are used for self-checking
+assert.equal(capsLock('Why are you asking me that?'), 'Why RE YOU sking me thT?');
+assert.equal(capsLock('Always wanted to visit Zambia.'), 'AlwYS Wnted to visit ZMBI.');
 
-    console.log("Coding complete? Click 'Check' to earn cool rewards!");
-}
+console.log("Coding complete? Click 'Check' to earn cool rewards!");
     
